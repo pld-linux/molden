@@ -1,14 +1,14 @@
 Summary:	A pre- and post processing program of molecular and electronic structure
 Summary(pl):	Program do pre- i postprocessingu struktur molekularnych i elektronicznych
 Name:		molden
-Version:	4.2
+Version:	4.3
 Release:	1
 License:	Free for non-commercial use
 Group:		X11/Applications
-Source0:	ftp://ftp.cmbi.kun.nl/pub/molgraph/molden/%{name}%{version}.tar.Z
-# Source0-md5:	5b737b09f1a4101a8bba0bb1a0d04288
+Source0:	ftp://ftp.cmbi.ru.nl/pub/molgraph/molden/%{name}%{version}.tar.Z
+# Source0-md5:	782101e33b837733bffc3265bb2a0292
 Patch0:		%{name}-make.patch
-URL:		http://www.caos.kun.nl/~schaft/molden/molden.html
+URL:		http://www.cmbi.ru.nl/molden/molden.html
 BuildRequires:	XFree86-devel
 BuildRequires:	gcc-g77
 BuildRequires:	glut-devel
