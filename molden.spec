@@ -6,6 +6,7 @@ Release:	1
 License:	Free for non-commercial use
 Group:		X11/Applications
 Source0:	ftp://ftp.cmbi.kun.nl/pub/molgraph/molden/%{name}%{version}.tar.Z
+# Source0-md5:	9b5d2da1caa80ff8661cc4627444a818
 Patch0:		%{name}-make.patch
 URL:		http://www.caos.kun.nl/~schaft/molden/molden.html
 BuildRequires:	XFree86-devel
