@@ -1,5 +1,5 @@
 Summary:	A pre- and post processing program of molecular and electronic structure
-Summary(pl):	Program do pre- i postprocessingu struktur molekularnych i elektronicznych
+Summary(pl.UTF-8):   Program do pre- i postprocessingu struktur molekularnych i elektronicznych
 Name:		molden
 Version:	4.3
 Release:	1
@@ -20,9 +20,9 @@ Molden is a package for displaying Molecular Density from the Ab
 Initio packages GAMESS-UK, GAMESS-US and GAUSSIAN and the
 Semi-Empirical packages Mopac/Ampac.
 
-%description -l pl
-Molden to pakiet do wy¶wietlania gêsto¶ci cz±steczkowej z pakietów
-Ab Initio GAMESS-UK, GAMESS-US i GAUSSIAN oraz pakietów Semi-Empirical
+%description -l pl.UTF-8
+Molden to pakiet do wyÅ›wietlania gÄ™stoÅ›ci czÄ…steczkowej z pakietÃ³w
+Ab Initio GAMESS-UK, GAMESS-US i GAUSSIAN oraz pakietÃ³w Semi-Empirical
 Mopac/Ampac.
 
 %prep
