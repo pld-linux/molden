@@ -1,5 +1,5 @@
 Summary:	A pre- and post processing program of molecular and electronic structure
-Summary(pl.UTF-8):   Program do pre- i postprocessingu struktur molekularnych i elektronicznych
+Summary(pl.UTF-8):	Program do pre- i postprocessingu struktur molekularnych i elektronicznych
 Name:		molden
 Version:	4.3
 Release:	1
