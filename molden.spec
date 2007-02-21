@@ -1,15 +1,14 @@
 Summary:	A pre- and post processing program of molecular and electronic structure
 Summary(pl.UTF-8):	Program do pre- i postprocessingu struktur molekularnych i elektronicznych
 Name:		molden
-Version:	4.3
+Version:	4.6
 Release:	1
 License:	Free for non-commercial use
 Group:		X11/Applications
-Source0:	ftp://ftp.cmbi.ru.nl/pub/molgraph/molden/%{name}%{version}.tar.Z
-# Source0-md5:	782101e33b837733bffc3265bb2a0292
-Patch0:		%{name}-make.patch
+Source0:	ftp://ftp.cmbi.ru.nl/pub/molgraph/molden/%{name}%{version}.tar.gz
+# Source0-md5:	a391cb44f97e733243414cf0ae15f35e
 URL:		http://www.cmbi.ru.nl/molden/molden.html
-BuildRequires:	XFree86-devel
+BuildRequires:	X11-devel
 BuildRequires:	gcc-g77
 BuildRequires:	glut-devel
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
@@ -27,7 +26,7 @@ Mopac/Ampac.
 
 %prep
 %setup -q -n %{name}%{version}
-%patch0 -p1
+sed -i 's,^\(LIBSOGL = \),\1 -L/usr/X11R6/lib ,' makefile
 
 %build
 %{__make} CC="%{__cc}" OPT="%{rpmcflags}"
